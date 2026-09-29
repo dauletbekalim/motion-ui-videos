@@ -1,0 +1,11 @@
+node_modules/
+# renders, stills, sheets, grown previews and the stills bundle (out/.bundle)
+out/
+# written by sound/design.mjs on every render
+public/sound-*.wav
+# the sound tests' renders (WAV, PNG, profiles): node sound/test/run.mjs remakes them
+sound/test/out/
+# your reference audio: most stock licenses forbid sharing the raw files
+sound/refs/
+.DS_Store
+*.log

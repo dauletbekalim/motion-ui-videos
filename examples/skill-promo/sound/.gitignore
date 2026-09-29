@@ -1,0 +1,2 @@
+# test renders (WAV, PNG, profiles): regenerate with node sound/test/run.mjs
+test/out/

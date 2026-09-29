@@ -1,0 +1,38 @@
+{
+  "name": "video",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Motion UI videos as code: a Remotion project with a code sound engine. Every cut reads one timeline, src/cuts.json.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "sound": "node sound/design.mjs --all",
+    "render:showcase": "node sound/design.mjs showcase && remotion render src/index.ts showcase out/showcase.mp4 --codec h264 --crf 16 --audio-bitrate 320k",
+    "render:reel": "node sound/design.mjs reel && remotion render src/index.ts reel out/reel.mp4 --codec h264 --crf 18 --audio-bitrate 256k",
+    "render:loop": "remotion render src/index.ts loop out/loop.mp4 --codec h264 --crf 18 --muted",
+    "render:story": "node sound/design.mjs story && remotion render src/index.ts story out/story.mp4 --codec h264 --crf 18",
+    "stills": "node scripts/stills.mjs",
+    "sheet": "node scripts/sheet.mjs",
+    "encode": "node scripts/encode.mjs",
+    "check": "node scripts/check.mjs",
+    "captions": "node scripts/captions.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node sound/test/run.mjs && node scripts/test.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "@remotion/transitions": "4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.12"
+  }
+}

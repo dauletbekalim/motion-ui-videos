@@ -1,0 +1,82 @@
+[
+  {
+    "query": "can you make an instagram reel for pennywise? it's the budgeting app in ~/code/pennywise. the receipt scanning is the thing people love so lead with that, 20-30 sec",
+    "should_trigger": true
+  },
+  {
+    "query": "we're launching relaybox next tuesday and i want a proper launch film for it, the kind linear and raycast put out. about a minute, 16:9, with sound. the web app lives in apps/web and the brand stuff is in design/",
+    "should_trigger": true
+  },
+  {
+    "query": "need a seamless loop of our kanban board (a card getting dragged from 'doing' to 'done') for the hero section of the landing page. muted, mp4 + webm, and a gif version for the README if it's not huge",
+    "should_trigger": true
+  },
+  {
+    "query": "apple wants an app preview for our app store listing and i have zero idea where to start. i've got simulator recordings of onboarding and the main feed in ~/Desktop/recs, need the 6.9 inch iphone size",
+    "should_trigger": true
+  },
+  {
+    "query": "make a video of my app lol. it's the next.js project in this repo. just something i can post on twitter so people get what it does",
+    "should_trigger": true
+  },
+  {
+    "query": "here are two sounds i really like: C:\\Users\\sam\\Downloads\\swish_03.wav and a mechanical keyboard clip, keys_brown.m4a. can you make the clicks and typing in quill's demo video feel like these? the video project is in video/",
+    "should_trigger": true
+  },
+  {
+    "query": "the tallybook launch video is basically done (remotion project in video/). now i need a youtube thumbnail for it and a 1080x1920 cover for the reel cut, same look as the film",
+    "should_trigger": true
+  },
+  {
+    "query": "we go live on product hunt thursday and need a promo for the gallery. something that shows the cli actually running against a real repo, under a minute. cli is in packages/cli, the readme has the pitch",
+    "should_trigger": true
+  },
+  {
+    "query": "shipped dark mode and the new cmd+k search in v2.3. can you make a quick 15s clip showing both for the changelog post and linkedin? square is fine",
+    "should_trigger": true
+  },
+  {
+    "query": "can you do one of those apple-style animated walkthroughs of our analytics dashboard? cursor clicking around, zooming into the charts, short captions. it's for our homepage and x",
+    "should_trigger": true
+  },
+  {
+    "query": "the invite modal in our next.js app just snaps in, feels cheap. can you add a framer-motion spring so it scales up and fades in? src/components/InviteModal.tsx",
+    "should_trigger": false
+  },
+  {
+    "query": "i have a 4 min screen recording of my app demo in premiere pro. how do i cut the dead air and speed up the loading bits without the cursor looking jumpy?",
+    "should_trigger": false
+  },
+  {
+    "query": "generate a 5 second cinematic b-roll clip of a developer typing at night in a neon-lit room, i need it for the intro of my youtube video",
+    "should_trigger": false
+  },
+  {
+    "query": "animate this matplotlib chart of monthly signups into a gif, bars growing one month at a time. data's in data/signups.csv",
+    "should_trigger": false
+  },
+  {
+    "query": "need a css loading spinner for the reports page, subtle, brand purple #6d28d9, no libraries pls",
+    "should_trigger": false
+  },
+  {
+    "query": "can you make subtitles (srt) for my lisbon travel vlog? D:\\vlogs\\lisbon_final.mp4, it's half portuguese half english",
+    "should_trigger": false
+  },
+  {
+    "query": "found this whoosh on another show that i love (attached intro_ref.mp3). can you make something like it for my podcast intro, ~3 sec, with a soft riser before my voice comes in?",
+    "should_trigger": false
+  },
+  {
+    "query": "in figma my onboarding carousel prototype looks janky when i present it. how do i get smart animate to slide the cards across instead of that weird crossfade?",
+    "should_trigger": false
+  },
+  {
+    "query": "make a youtube thumbnail for my cooking video, me holding a burnt pan looking shocked, big text 'I RUINED IT'",
+    "should_trigger": false
+  },
+  {
+    "query": "my remotion project turns our wedding photos into a slideshow with ken burns zooms, but the last few photos flicker when i render. src/Slideshow.tsx, any idea why?",
+    "should_trigger": false
+  }
+]

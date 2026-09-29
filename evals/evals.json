@@ -1,0 +1,56 @@
+{
+  "skill_name": "motion-ui-videos",
+  "evals": [
+    {
+      "id": 1,
+      "name": "tallybook-instagram-reel",
+      "prompt": "hey, we're launching tallybook next week (the repo is at evals/fixtures/tallybook). can you make an instagram reel for it? people scroll fast so it has to grab attention right away, but it still needs to explain what the app actually does. give me the mp4 and a cover image.",
+      "expected_output": "A 9:16 1080x1920 MP4 reel, 15-40 s, with a hook visible in the first 0.5 s, punch captions that respect the reading floor, the product's real UI (from the fixture's tokens and components) filling the frame, a how-it-works moment, sound, loudness near -14 LUFS, a CTA end card, plus a 1080x1920 cover with key content inside the centered 3:4.",
+      "files": ["evals/fixtures/tallybook"],
+      "assertions": [
+        { "name": "reel-is-9x16-1080x1920", "check": "ffprobe: width 1080, height 1920" },
+        { "name": "reel-length-15-to-40s", "check": "ffprobe duration between 15 and 40 s" },
+        { "name": "reel-has-audio-near-minus-14-lufs", "check": "audio stream present; integrated loudness between -17 and -12 LUFS; true peak <= -1 dBTP" },
+        { "name": "hook-text-visible-by-half-second", "check": "a still at 0.5 s shows large on-screen text" },
+        { "name": "uses-product-brand", "check": "stills use the fixture's accent green #1f9d6a / off-white background or its real strings (e.g. 'settle up', 'split evenly')" },
+        { "name": "shows-how-it-works", "check": "some scene shows the add-expense or settle-up flow in the product UI, not just claims" },
+        { "name": "captions-in-safe-zone", "check": "no caption text in the bottom 380 px or the right 140 px at the marks checked" },
+        { "name": "cover-1080x1920", "check": "cover image exists at 1080x1920 with title inside the middle 1080x1440" },
+        { "name": "stills-reviewed", "check": "the run rendered stills/contact sheets and looked at them before the final render" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "tallybook-landing-showcase",
+      "prompt": "make a ~60 second product video for tallybook's landing page and youtube (repo: evals/fixtures/tallybook). assume the viewer has never heard of us. 16:9, and we want it to feel apple-level polished, with sound.",
+      "expected_output": "A 16:9 1920x1080 MP4, ~45-75 s, comprehension-first: hook, problem shown, reveal with the tagline, how it works in the rebuilt UI with cursor and camera, 2-4 features, end card with tallybook.example; calm captions held at least words/3+1 s; sound designed in code at roughly -16 to -18 LUFS; a scene table in the project README.",
+      "files": ["evals/fixtures/tallybook"],
+      "assertions": [
+        { "name": "showcase-is-1920x1080", "check": "ffprobe: 1920x1080" },
+        { "name": "showcase-length-45-to-75s", "check": "duration between 45 and 75 s" },
+        { "name": "has-audio-calm-loudness", "check": "audio present; integrated loudness between -20 and -14 LUFS; true peak <= -1 dBTP" },
+        { "name": "caption-reading-floor", "check": "every caption is on screen at least words/3 + 1 seconds (from cuts/captions source)" },
+        { "name": "rebuilt-ui-not-screenshots", "check": "product UI is built as components from the fixture's tokens/strings" },
+        { "name": "cursor-and-camera", "check": "a cursor clicks through the UI and the camera pushes in on the subject at least once" },
+        { "name": "end-card-with-url", "check": "final seconds show tallybook.example and a call to action" },
+        { "name": "scene-table-documented", "check": "the project README contains a scene table with seconds and captions" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "tallybook-loop-and-audio-reference",
+      "prompt": "i need a short seamless loop of the 'add expense' flow for the hero section of our site (repo at evals/fixtures/tallybook), plus a 10 second feature clip of the same flow with sound. i like this swoosh: evals/fixtures/refs/swoosh.wav, make the clip's sounds feel like that.",
+      "expected_output": "A seamless 4-10 s loop (first frame equals last) with web-ready MP4/WebM (and optionally a GIF), plus a ~10 s feature clip with sound whose whooshes are derived from the reference (analyzed, described back, grown or placed), with a short plain-words report of how the reference was used.",
+      "files": ["evals/fixtures/tallybook", "evals/fixtures/refs/swoosh.wav"],
+      "assertions": [
+        { "name": "loop-is-seamless", "check": "first and last frame of the loop are (near) identical" },
+        { "name": "loop-length-4-to-10s", "check": "loop duration 4-10 s" },
+        { "name": "loop-web-formats", "check": "an MP4 (H.264) and a WebM or GIF of the loop exist" },
+        { "name": "clip-about-10s-with-audio", "check": "feature clip 8-12 s with an audio stream" },
+        { "name": "reference-analyzed-and-described", "check": "the run analyzed swoosh.wav and described its character in plain words" },
+        { "name": "whooshes-derived-from-reference", "check": "the clip's whooshes are the reference placed peak-aligned or variants grown from it, not unrelated synthesized noise" },
+        { "name": "no-repeated-identical-sample", "check": "if the swoosh is used more than twice, the uses are distinct variants" }
+      ]
+    }
+  ]
+}

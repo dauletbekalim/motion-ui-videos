@@ -1,0 +1,15 @@
+{
+  "name": "motion-ui-videos",
+  "description": "Motion UI Videos: product reels, launch films and UI motion made in code",
+  "owner": {
+    "name": "Alim Dauletbek",
+    "url": "https://github.com/dauletbekalim"
+  },
+  "plugins": [
+    {
+      "name": "motion-ui-videos",
+      "source": "./",
+      "description": "Make product reels, launch films, feature clips, UI loops, app-store previews and stories in code with Remotion, with sound designed in code."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "motion-ui-videos",
+  "displayName": "Motion UI Videos",
+  "version": "1.0.0",
+  "description": "Make product reels, launch films, feature clips, UI loops, app-store previews and stories in code with Remotion, with sound designed in code and frame-accurate to the picture.",
+  "author": {
+    "name": "Alim Dauletbek",
+    "url": "https://github.com/dauletbekalim"
+  },
+  "homepage": "https://github.com/dauletbekalim/motion-ui-videos",
+  "repository": "https://github.com/dauletbekalim/motion-ui-videos",
+  "license": "MIT",
+  "keywords": ["remotion", "video", "motion-design", "reels", "product-video", "launch-video", "sound-design", "skill"]
+}

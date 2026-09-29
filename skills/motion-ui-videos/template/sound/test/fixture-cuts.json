@@ -1,0 +1,28 @@
+{
+  "showcase": {
+    "format": "showcase",
+    "cross": 0.4,
+    "sound": true,
+    "scenes": [
+      { "id": "hook", "seconds": 4, "marks": { "whoosh": 0.2, "title": 0.3, "sub": 1.4 } },
+      { "id": "problem", "seconds": 5, "marks": { "click": 1.2, "hit": 3.6 } },
+      { "id": "reveal", "seconds": 4, "marks": { "reveal": 0.8 } },
+      { "id": "demo", "seconds": 9, "marks": { "click": 1.0, "paletteOpen": 1.6, "typeStart": 2.2, "typeEnd": 3.6, "click2": 4.4, "whooshPan": 5.0, "done": 6.2 } },
+      { "id": "features", "seconds": 6, "marks": { "cardIn1": 0.5, "cardIn2": 0.9, "cardIn3": 1.3 } },
+      { "id": "end", "seconds": 4, "marks": { "ctaIn": 1.0 } }
+    ]
+  },
+  "reel": {
+    "format": "reel",
+    "cross": 0.2,
+    "sound": true,
+    "scenes": [
+      { "id": "hook", "seconds": 2.4, "marks": { "title": 0.1 } },
+      { "id": "problem", "seconds": 3, "marks": { "hit": 2.0 } },
+      { "id": "demo", "seconds": 6, "marks": { "click": 1.0, "paletteOpen": 1.6, "typeStart": 2.2, "typeEnd": 3.6, "click2": 4.4, "done": 6.2 },
+        "warp": [[0, 0], [2, 3], [4, 6.5], [6, 9]] },
+      { "id": "reveal", "seconds": 3, "marks": { "reveal": 0.5 } },
+      { "id": "end", "seconds": 3, "marks": { "ctaIn": 0.6 } }
+    ]
+  }
+}

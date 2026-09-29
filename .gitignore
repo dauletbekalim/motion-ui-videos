@@ -1,0 +1,12 @@
+node_modules/
+out/
+**/public/sound-*.wav
+**/sound/refs/
+**/sound/test/out/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.env*
+.claude/settings.local.json
+media/release/

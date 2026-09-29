@@ -1,0 +1,21 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.mp4 binary
+*.webm binary
+*.mov binary
+*.wav binary
+*.mp3 binary
+*.m4a binary
+*.ogg binary
+*.flac binary
+*.aif binary
+*.aiff binary
+*.woff2 binary
+*.woff binary
+*.ttf binary
+*.otf binary
+examples/skill-promo/src/promo/spectra.json linguist-generated

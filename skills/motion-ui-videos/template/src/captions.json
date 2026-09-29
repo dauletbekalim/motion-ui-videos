@@ -1,0 +1,57 @@
+{
+  "showcase": {
+    "hook": { "cues": [{ "at": "title", "text": "Your team writes everything down." }] },
+    "problem": {
+      "cues": [
+        { "at": "appsIn + 0.2", "text": "Then it ends up in five different apps." },
+        { "at": "searchIn", "text": "And nobody can find it when it matters." }
+      ]
+    },
+    "reveal": { "cues": [{ "at": "promise", "text": "One calm place for your team’s notes." }] },
+    "how": {
+      "cues": [
+        { "at": 0.3, "text": "Start a note in one click." },
+        { "at": "keys - 0.3", "text": "Do anything from the keyboard." },
+        { "at": "shareOpen + 0.8", "text": "Share it with your team in two clicks." },
+        { "at": "cursorsIn - 0.1", "text": "Then write it together, live." }
+      ]
+    },
+    "features": {
+      "cues": [
+        { "at": 0.3, "text": "Made for small teams." },
+        { "at": "focus1", "text": "See who’s in a note, live." },
+        { "at": "focus2", "text": "Find any note, instantly." },
+        { "at": "focus3", "text": "Rewind any note to any moment." }
+      ]
+    }
+  },
+  "reel": {
+    "reelHook": { "punch": true, "cues": [{ "at": "title - 0.12", "text": "Your team’s | notes are | *everywhere.*" }] },
+    "reelProblem": {
+      "punch": true,
+      "cues": [
+        { "at": 0.05, "text": "Where’s the | launch plan?" },
+        { "at": "appsIn - 0.1", "text": "5 apps. | 0 answers." }
+      ]
+    },
+    "reveal": { "cues": [{ "at": "promise", "text": "One calm place for | your team’s notes." }] },
+    "reelPalette": {
+      "punch": true,
+      "cues": [
+        { "at": 0.05, "text": "One shortcut." },
+        { "at": "select - 0.1", "text": "Any note. | Instantly." }
+      ]
+    },
+    "reelLive": {
+      "punch": true,
+      "cues": [
+        { "at": 0.05, "text": "Share it." },
+        { "at": "punch", "text": "Write together. | Live." }
+      ]
+    },
+    "reelPayoff": { "punch": true, "cues": [{ "at": 0.05, "text": "Everything. | One place." }] }
+  },
+  "story": {
+    "story": { "cues": [{ "at": "title", "text": "Your team’s notes, | finally in *one place.*" }] }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "showcase": {
+    "format": "showcase",
+    "cross": 0.1,
+    "sound": true,
+    "scenes": [
+      { "id": "hook", "seconds": 4.0, "marks": { "title": 0.3, "fragmentsIn": 1.1 } },
+      { "id": "problem", "seconds": 8.2, "marks": { "appsIn": 0.4, "sort": 0.9, "searchIn": 4.4, "typeStart": 4.9, "typeEnd": 5.9, "noResults": 6.3 } },
+      { "id": "reveal", "seconds": 5.3, "marks": { "logo": 0.3, "rise": 0.6, "wordmark": 1.2, "promise": 1.9 } },
+      {
+        "id": "how",
+        "seconds": 14.0,
+        "marks": {
+          "click1": 2.0, "noteIn": 2.1, "typeStart": 2.7, "typeEnd": 3.7, "listIn": 3.9,
+          "keys": 4.6, "paletteOpen": 4.8, "paletteTypeStart": 5.3, "paletteTypeEnd": 5.8, "paletteSelect": 6.1, "shareOpen": 6.6,
+          "click2": 8.3, "join1": 8.6, "join2": 8.8, "join3": 9.0, "click3": 9.8, "toast": 9.9, "shareClose": 10.6,
+          "cursorsIn": 11.3, "teamTypeStart": 11.9, "check1": 12.6, "teamTypeEnd": 13.1
+        }
+      },
+      {
+        "id": "features",
+        "seconds": 11.7,
+        "marks": { "cardIn1": 0.5, "cardIn2": 0.65, "cardIn3": 0.8, "focus1": 2.7, "focus2": 5.8, "typeStart": 6.2, "typeEnd": 6.9, "focus3": 8.5, "scrub": 8.9, "restore": 9.9 }
+      },
+      { "id": "end", "seconds": 4.6, "marks": { "logo": 0.3, "title": 0.5, "url": 1.0, "ctaIn": 1.4 } }
+    ]
+  },
+  "reel": {
+    "format": "reel",
+    "cross": 0.1,
+    "sound": true,
+    "scenes": [
+      { "id": "reelHook", "seconds": 2.8, "marks": { "title": 0.0, "burst": 1.2 } },
+      { "id": "reelProblem", "seconds": 3.8, "marks": { "typeStart": 0.3, "typeEnd": 1.05, "noResults": 1.25, "appsIn": 1.95 } },
+      {
+        "id": "reveal",
+        "seconds": 4.1,
+        "marks": { "logo": 0.3, "rise": 0.6, "wordmark": 0.85, "promise": 1.3 },
+        "warp": [[0, 0.22], [0.63, 1.3], [4.1, 5.3]]
+      },
+      { "id": "reelPalette", "seconds": 3.1, "marks": { "keys": 0.22, "paletteOpen": 0.4, "typeStart": 0.6, "typeEnd": 1.1, "select": 1.3, "enter": 1.7, "noteIn": 2.05 } },
+      { "id": "reelLive", "seconds": 3.1, "marks": { "click1": 0.3, "join1": 0.55, "join2": 0.7, "join3": 0.85, "punch": 1.05, "typeStart": 1.4, "check": 2.2, "typeEnd": 2.6 } },
+      { "id": "reelPayoff", "seconds": 2.1, "marks": { "gather": 0.3, "settle": 1.05 } },
+      { "id": "end", "seconds": 2.7, "marks": { "logo": 0.05, "title": 0.2, "url": 0.6, "ctaIn": 1.05 } }
+    ]
+  },
+  "loop": {
+    "format": "loop",
+    "cross": 0,
+    "sound": false,
+    "grain": false,
+    "scenes": [
+      {
+        "id": "loop",
+        "seconds": 6.0,
+        "marks": { "keys": 0.7, "paletteOpen": 0.9, "typeStart": 1.2, "typeEnd": 1.9, "select": 2.1, "paletteClose": 2.3, "noteIn": 2.4, "titleStart": 2.7, "titleEnd": 3.7, "noteOut": 4.4, "settle": 5.2 }
+      }
+    ]
+  },
+  "story": {
+    "format": "story",
+    "cross": 0,
+    "sound": true,
+    "scenes": [{ "id": "story", "seconds": 8.0, "marks": { "logo": 0.05, "title": 0.3, "cardIn": 1.3, "cursorsIn": 2.3, "ctaIn": 3.3, "pointer": 3.8 } }]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "showcase": {
+    "hook": { "cues": [{ "at": "title", "text": "Your team writes everything down." }] },
+    "problem": {
+      "cues": [
+        { "at": "appsIn + 0.2", "text": "Then it ends up in five different apps." },
+        { "at": "searchIn", "text": "And nobody can find it when it matters." }
+      ]
+    },
+    "reveal": { "cues": [{ "at": "promise", "text": "One calm place for your team’s notes." }] },
+    "how": {
+      "cues": [
+        { "at": 0.3, "text": "Start a note in one click." },
+        { "at": "keys - 0.3", "text": "Do anything from the keyboard." },
+        { "at": "shareOpen + 0.8", "text": "Share it with your team in two clicks." },
+        { "at": "cursorsIn - 0.1", "text": "Then write it together, live." }
+      ]
+    },
+    "features": {
+      "cues": [
+        { "at": 0.3, "text": "Made for small teams." },
+        { "at": "focus1", "text": "See who’s in a note, live." },
+        { "at": "focus2", "text": "Find any note, instantly." },
+        { "at": "focus3", "text": "Rewind any note to any moment." }
+      ]
+    }
+  },
+  "reel": {
+    "reelHook": { "punch": true, "cues": [{ "at": "title - 0.12", "text": "Your team’s | notes are | *everywhere.*" }] },
+    "reelProblem": {
+      "punch": true,
+      "cues": [
+        { "at": 0.05, "text": "Where’s the | launch plan?" },
+        { "at": "appsIn - 0.1", "text": "5 apps. | 0 answers." }
+      ]
+    },
+    "reveal": { "cues": [{ "at": "promise", "text": "One calm place for | your team’s notes." }] },
+    "reelPalette": {
+      "punch": true,
+      "cues": [
+        { "at": 0.05, "text": "One shortcut." },
+        { "at": "select - 0.1", "text": "Any note. | Instantly." }
+      ]
+    },
+    "reelLive": {
+      "punch": true,
+      "cues": [
+        { "at": 0.05, "text": "Share it." },
+        { "at": "punch", "text": "Write together. | Live." }
+      ]
+    },
+    "reelPayoff": { "punch": true, "cues": [{ "at": 0.05, "text": "Everything. | One place." }] }
+  },
+  "story": {
+    "story": { "cues": [{ "at": "title", "text": "Your team’s notes, | finally in *one place.*" }] }
+  },
+  "promo-reel": {
+    "pHook": { "punch": true, "cues": [{ "at": "title - 0.3", "text": "Product videos, | *written as code.*" }] },
+    "pPrompt": { "punch": true, "cues": [{ "at": 0.1, "text": "Tell Claude | what you’re | launching." }] },
+    "pRebuild": { "punch": true, "cues": [{ "at": 0.1, "text": "It reads | your repo, | rebuilds | your UI." }] },
+    "pTimeline": { "punch": true, "cues": [{ "at": 0.1, "text": "Picture, sound, | one timeline." }] },
+    "pCheck": { "punch": true, "cues": [{ "at": 0.1, "text": "It checks | its work." }] },
+    "pFormats": { "punch": true, "cues": [{ "at": 0.1, "text": "One source. | Every format." }] },
+    "pSounds": { "punch": true, "cues": [{ "at": 0.1, "text": "Send sounds | you like. | It makes | the rest." }] },
+    "pPayoff": { "punch": true, "cues": [{ "at": 0.1, "text": "Rendered, | not recorded." }] },
+    "pEnd": { "punch": true, "cues": [{ "at": "sub", "text": "Free & | *open source.*" }] }
+  },
+  "promo-showcase": {
+    "pHook": { "cues": [{ "at": "title", "text": "Product videos, *written as code.*" }] },
+    "pPrompt": { "cues": [{ "at": 0.3, "text": "Tell Claude what you’re launching." }] },
+    "pRebuild": {
+      "cues": [
+        { "at": 0.3, "text": "It reads your repo, rebuilds your UI." },
+        { "at": "move", "text": "Real components, so they can move." }
+      ]
+    },
+    "pTimeline": {
+      "cues": [
+        { "at": 0.3, "text": "Picture and sound share one timeline." },
+        { "at": "edit - 0.4", "text": "Move a mark, and its sound moves too." }
+      ]
+    },
+    "pCheck": {
+      "cues": [
+        { "at": 0.3, "text": "It checks its own work." },
+        { "at": "meter - 0.55", "text": "It measures the sound, too." }
+      ]
+    },
+    "pFormats": { "cues": [{ "at": 0.3, "text": "One source. Every format." }] },
+    "pSounds": {
+      "cues": [
+        { "at": 0.3, "text": "Send sounds you like." },
+        { "at": "more", "text": "It makes the rest, one for every move." }
+      ]
+    },
+    "pPayoff": {
+      "cues": [
+        { "at": 0.3, "text": "Rendered, not recorded." },
+        { "at": "also", "text": "This film, too." }
+      ]
+    }
+  }
+}
